@@ -14,3 +14,23 @@
     margin-top: 10%;
     padding: 1em;
 }
+
+.gradient button {
+  color: black;
+  margin: 500px;
+  position: relative;
+  cursor: pointer;
+  padding: 1em 1em; /* Поля по вертикали и горизонтали */
+    color: white; /* Цвет текста */
+    font-family: monospace; /* Моноширинный шрифт */
+    font-size: 1.4em; /* Размер текста */
+    font-weight: bold; /* Жирный шрифт */
+    text-transform: uppercase; /* Все буквы заглавные */
+    background-color: #67ada9; /* Цвет фона кнопки */
+    border-width: 0; /* Убираем рамку */
+    border-bottom: 4px solid #547b80; /* Линия снизу */
+    border-radius: 0.4em; /* Радиус скругления */
+  }
+  .gradient button:active {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .5);
+   }
