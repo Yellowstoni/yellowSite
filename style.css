@@ -5,6 +5,7 @@
     text-align: center;
     margin-top: 1em;
     padding: 1em;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .description {
@@ -14,29 +15,65 @@ color: rgb(190, 233, 193);
     text-align: left;
     margin-top: 1em;
     padding: 1em;
+    font-family: Helvetica, Arial, sans-serif;
 }
-.p {
+.p1 {
 color: rgb(190, 233, 193);
     background-color: rgb(30, 31, 34);
     font-size: 35px;
     text-align: center;
     margin-top: 1em;
     padding: 1em;
-
-
-
+    font-family: Helvetica, Arial, sans-serif;
 }
-.resume {
- color: rgb(30, 31, 34);
-    font-size: 20px;
-    text-shadow: 2
-    margin-top: 10%;
+
+.p2 {
+color: rgb(205, 92, 92);
+    background-color: rgb(30, 31, 34);
+    font-size: 35px;
+    text-align: center;
+    margin-top: 1em;
     padding: 1em;
+    font-family: Helvetica, Arial, sans-serif;
+ text-shadow:
+  1px 1px 1px yellow,
+  2px 2px 1px yellow;
+}
+
+.p3 {
+color: rgb(190, 233, 193);
+    background-color: rgb(30, 31, 34);
+    font-size: 35px;
+    text-align: center;
+    margin-top: 1em;
+    padding: 1em;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.ordersKanns {
+color: rgb(190, 233, 193);
+    background-color: rgb(30, 31, 34);
+    font-size: 35px;
+    text-align: left;
+    margin-top: 1em;
+    padding: 1em;
+    font-family: Helvetica, Arial, sans-serif;
+
+.img {
+style="position: relative;
+left: 500px;
+}
+
+
+
+
 }
 
 .gradient button {
   color: black;
-  margin: 500px;
+margin-top: 10em;
+margin-bottom: 10em;
+margin-left: 29em;
   cursor: pointer;
   padding: 1em 1em; /* Поля по вертикали и горизонтали */
     color: white; /* Цвет текста */
