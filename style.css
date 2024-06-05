@@ -60,6 +60,15 @@ color: rgb(190, 233, 193);
     font-family: Helvetica, Arial, sans-serif;
 }
 
+.p5 {
+    background-color: rgb(240, 230, 140);
+    font-size: 35px;
+    text-align: center;
+    margin-top: 1em;
+    padding: 1em;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 .ordersKanns {
 color: rgb(190, 233, 193);
     background-color: rgb(30, 31, 34);
@@ -70,10 +79,18 @@ color: rgb(190, 233, 193);
     font-family: Helvetica, Arial, sans-serif;
 }
 
-.img in text {
-
-
-}
+.a {
+    color: #0075B2; /* Цвет обычной ссылки */
+    text-decoration: none; /* Убираем подчёркивание у ссылок */
+   }
+   a:visited {
+    color: #8F8E8E; /* Цвет посещённой ссылки */
+   }
+   a:hover {
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #FFFAC0; /* Цвет ссылки */
+    background: #AB4A9C; /* Цвет фона */
+   }
 
 .gradient button {
   color: yellow;
