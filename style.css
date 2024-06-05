@@ -59,18 +59,13 @@ color: rgb(190, 233, 193);
     padding: 1em;
     font-family: Helvetica, Arial, sans-serif;
 
-.img {
-style="position: relative;
-left: 500px;
-}
-
-
+.img in text {
 
 
 }
 
 .gradient button {
-  color: black;
+  color: yellow;
 margin-top: 10em;
 margin-bottom: 10em;
 margin-left: 29em;
