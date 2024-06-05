@@ -1,6 +1,7 @@
 .title {
     color: rgb(190, 233, 193);
     background-color: rgb(30, 31, 34);
+    background-size: 50px;
     font-size: 35px;
     text-align: center;
     margin-top: 1em;
@@ -12,7 +13,7 @@
 color: rgb(190, 233, 193);
     background-color: rgb(30, 31, 34);
     font-size: 35px;
-    text-align: left;
+    text-align: auto;
     margin-top: 1em;
     padding: 1em;
     font-family: Helvetica, Arial, sans-serif;
@@ -94,31 +95,22 @@ color: rgb(190, 233, 193);
 
 
 
-}
-fieldset {
-   max-width: 350px;
-   margin: 50px auto 0;
-   padding: 20px;
-   background: #FAAB1B;
-   font-family: 'Oswald', sans-serif;
-}
 
 button {
-  padding: 10px 0;
-  border-width: 0;
+  padding: 30px 0;
+
   display: block;
-  width: 120px;
+  width: 350px;
   margin: 25px auto 0;
   background: yellow;
   color: black;
-  font-size: 14px;
   outline: none;
   text-transform: uppercase;
   cursor: pointer;
   padding: 1em 1em; /* Поля по вертикали и горизонтали */
     color: white; /* Цвет текста */
     font-family: monospace; /* Моноширинный шрифт */
-    font-size: 1.4em; /* Размер текста */
+    font-size: 0.5em; /* Размер текста */
     font-weight: bold; /* Жирный шрифт */
     text-transform: uppercase; /* Все буквы заглавные */
     background-color: #67ada9; /* Цвет фона кнопки */
@@ -129,13 +121,6 @@ button {
   button:active {
     box-shadow: inset 0 0 5px rgba(0, 0, 0, .5);
    }
-}
-
-/********************** добавляем форме адаптивность **********************/
-@media (min-width: 100%;) {
-  .form {margin: 20px auto; max-width: 550px; width:100%;}
-  h1 {margin-top: auto; padding-bottom: 50px;}
-  form {border-radius: 0 0 20px 20px;}
 }
 
 
@@ -284,221 +269,27 @@ body {
 }
 
 
-* {
-   box-sizing: border-box;
-}
-body {
-   background: #f69a73;
-}
-.decor {
-   position: relative;
-   max-width: 400px;
-   margin: 50px auto 0;
-   background: white;
-   border-radius: 30px;
-}
-.form-left-decoration, .form-right-decoration {
-   content: "";
-   position: absolute;
-   width: 50px;
-   height: 20px;
-   background: #f69a73;
-   border-radius: 20px;
-}
-.form-left-decoration {
-   bottom: 60px;
-   left: -30px;
-}
-.form-right-decoration {
-   top: 60px;
-   right: -30px;
-}
-.form-left-decoration:before, .form-left-decoration:after, .form-right-decoration:before, .form-right-decoration:after {
-   content: "";
-   position: absolute;
-   width: 50px;
-   height: 20px;
-   border-radius: 30px;
-   background: white;
-}
-.form-left-decoration:before {
-   top: -20px;
-}
-.form-left-decoration:after {
-   top: 20px;
-   left: 10px;
-}
-.form-right-decoration:before {
-   top: -20px;
-   right: 0;
-}
-.form-right-decoration:after {
-   top: 20px;
-   right: 10px;
-}
-.circle {
-   position: absolute;
-   bottom: 80px;
-   left: -55px;
-   width: 20px;
-   height: 20px;
-   border-radius: 50%;
-   background: white;
-}
-.form-inner {
-   padding: 50px;
-}
-.form-inner input, .form-inner textarea {
-   display: block;
-   width: 100%;
-   padding: 0 20px;
-   margin-bottom: 10px;
-   background: #E9EFF6;
-   line-height: 40px;
-   border-width: 0;
-   border-radius: 20px;
-   font-family: 'Roboto', sans-serif;
-}
-.form-inner input[type="submit"] {
-   margin-top: 30px;
-   background: #f69a73;
-   border-bottom: 4px solid #d87d56;
-   color: white;
-   font-size: 14px;
-}
-.form-inner textarea {
-   resize: none;
-}
-.form-inner h3 {
-   margin-top: 0;
-   font-family: 'Roboto', sans-serif;
-   font-weight: 500;
-   font-size: 24px;
-   color: #707981;
-}
-
-
-* {
-   box-sizing: border-box;
-}
-body {
-   background: #e6f4fd;
-   font-family: 'Roboto', sans-serif;
-}
-.ui-form {
-   max-width: 350px;
-   padding: 80px 30px 30px;
-   margin: 50px auto 30px;
-   background: white;
-}
-.ui-form h3 {
-   position: relative;
-   z-index: 5;
-   margin: 0 0 60px;
-   text-align: center;
-   color: #4a90e2;
-   font-size: 30px;
-   font-weight: normal;
-}
-.ui-form h3:before {
-   content: "";
-   position: absolute;
-   z-index: -1;
-   left: 60px;
-   top: -30px;
-   width: 100px;
-   height: 100px;
-   border-radius: 50%;
-   background: #fee8e4;
-}
-.ui-form h3:after {
-   content: "";
-   position: absolute;
-   z-index: -1;
-   right: 50px;
-   top: -40px;
-   width: 0;
-   height: 0;
-   border-left: 55px solid transparent;
-   border-right: 55px solid transparent;
-   border-bottom: 90px solid #ffe3b5;
-}
-.form-row {
-   position: relative;
-   margin-bottom: 40px;
-}
-.form-row input {
-   display: block;
-   width: 100%;
-   padding: 0 10px;
-   line-height: 40px;
-   font-family: 'Roboto', sans-serif;
-   background: none;
-   border-width: 0;
-   border-bottom: 2px solid #4a90e2;
-   transition: all 0.2s ease;
-}
-.form-row label {
-   position: absolute;
-   left: 13px;
-   color: #9d959d;
-   font-size: 20px;
-   font-weight: 300;
-   transform: translateY(-35px);
-   transition: all 0.2s ease;
-}
-.form-row input:focus {
-   outline: 0;
-   border-color: #F77A52;
-}
-.form-row input:focus+label, .form-row input:valid+label {
-   transform: translateY(-60px);
-   margin-left: -14px;
-   font-size: 14px;
-   font-weight: 400;
-   outline: 0;
-   border-color: #F77A52;
-   color: #F77A52;
-}
-.ui-form input[type="submit"] {
-   width: 100%;
-   padding: 0;
-   line-height: 42px;
-   background: #4a90e2;
-   border-width: 0;
-   color: white;
-   font-size: 20px;
-}
-.ui-form p {
-   margin: 0;
-   padding-top: 10px;
-}
-
-
-
-
-
 
 .table {
 	width: 100%;
 	margin-bottom: 20px;
 	border: 5px solid #fff;
-	border-top: 5px solid #fff;
+	border-top: 20px solid #fff;
 	border-bottom: 3px solid #fff;
 	border-collapse: collapse;
-	outline: 3px solid #ffd300;
+	outline: 20px solid #faab1b;  цвет границы
 	font-size: 15px;
 	background: #fff!important;
 }
 .table th {
 	font-weight: bold;
-	padding: 7px;
-	background: #ffd300;
+	padding: 5px;
+	background: #faab1b;
 	border: none;
-	text-align: left;
+	text-align: center;
 	font-size: 15px;
 	border-top: 3px solid #fff;
-	border-bottom: 3px solid #ffd300;
+	border-bottom: 3px solid #faab1b;
 }
 .table td {
 	padding: 7px;
@@ -515,8 +306,9 @@ body {
 
 
 iframe {
-  border: 1px solid black;
-  width: 100%; /* takes precedence over the width set with the HTML width attribute */
-}
+  border: 0px solid;
+  padding: 25px;
+  border-top: 50px;
+  width: 100%;
 
 
