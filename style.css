@@ -93,12 +93,21 @@ color: rgb(240, 230, 140);
     background: #AB4A9C; /* Цвет фона */
    }
 
-label {
-font-size: 25px;
-width: 300px; /* Ширина поля */
-
-   }
+.country {
+  display: flex;
+    flex-direction: column;
+  align-items: center;
 }
+
+.country li {
+  list-style-type: none;
+}
+
+.country fieldset {
+  width: 100%;
+  max-width: 500px;
+}
+
 
 button {
   padding: 30px 0;
@@ -275,19 +284,23 @@ body {
 
 
 .table {
-	width: 100%;
-	margin-bottom: 20px;
-	border: 5px solid #fff;
-	border-top: 20px solid #fff;
+display: flex;
+flex-direction: column;
+  align-items: center;
+	width: 20%;
+	margin-bottom: 10px;
+margin-left: 855px;
+	border-top: 10px solid #fff;
 	border-bottom: 3px solid #fff;
 	border-collapse: collapse;
-	outline: 20px solid #faab1b;  цвет границы
+	outline: 15px solid #faab1b;  /* Цвет границы */
 	font-size: 15px;
 	background: #fff!important;
 }
 .table th {
+flex-direction: column;
 	font-weight: bold;
-	padding: 5px;
+	padding: 9px;
 	background: #faab1b;
 	border: none;
 	text-align: center;
@@ -296,7 +309,7 @@ body {
 	border-bottom: 3px solid #faab1b;
 }
 .table td {
-	padding: 7px;
+	padding: 19px;
 	border: none;
 	border-top: 3px solid #fff;
 	border-bottom: 3px solid #fff;
