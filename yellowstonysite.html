@@ -89,33 +89,15 @@
 
     </a>
     </div>
-  </div>
 
-<div class="form-wrap">
-  <div class="profile"><img src="https://html5book.ru/wp-content/uploads/2016/10/profile-image.png">
-    <h1>Регистрация</h1>
-  </div>
-  <form method="post" action="form.php">
-    <div>
-      <label for="name">Имя</label>
-      <input type="text" name="name" required>
-    </div>
-    <div class="radio">
-      <span>Пол</span>
-      <label>
-        <input type="radio" name="sex" value="мужской">мужской
-        <div class="radio-control male"></div>
-      </label>
-      <label>
-        <input type="radio" name="sex" value="женский">женский
-        <div class="radio-control female"></div>
-      </label>
-    </div>
-    <div>
-      <label for="email">E-mail</label>
-      <input type="email" name="email" required>
-    </div>
-    <div>
+</div>
+<div class="form">
+ <form action="#" method="post" target="_blank">
+  <h1>Шаблон формы</h1>
+</div>
+
+<div class="country">
+  <fieldset>
       <label for="country">Страна</label>
       <select name="country">
         <option>Выберите страну проживания</option>
@@ -124,20 +106,72 @@
         <option value="Беларусь">Беларусь</option>
       </select>
       <div class="select-arrow"></div>
-    </div>
+    <legend>Персональные данные</legend>
+    <ul>
+      <li>
+        <label for="name">Имя:*</label>
+        <input type="text" name="name" placeholder="Иван Иванов" id="name" required>
+      </li>
+      <li>
+        <label for="age">Возраст:</label>
+        <input type="number" name="age" placeholder="27" id="age" min="0" max="125">
+      </li>
+    </ul>
+  </fieldset>
+  <fieldset>
+    <legend>Контакты</legend>
+    <ul>
+      <li>
+        <label for="email">E-mail:*</label>
+        <input type="email" name="mail" placeholder="ivanov@gmail.com" id="email" required>
+      </li>
+      <li>
+        <label for="number">Телефон:*</label>
+        <input type="tel" name="phone" placeholder="+7 000 000-00-00" id="number" maxlength="21" required>
+      </li>
+    </ul>
+  </fieldset>
+  <div>
+    <label for="message">Увлечения</label>
+    <textarea name="comment" placeholder="Расскажите обо всём, что для вас важно" id="message"></textarea>
+  </div>
+  <fieldset>
+    <legend>Учёба</legend>
+    <ul>
+      <li>
+        <input type="checkbox" name="intensive-courses" id="courses" checked>
+        <label for="courses">Прохожу курсы</label>
+      </li>
+      <li>
+        <input type="checkbox" name="books" id="books">
+        <label for="books">Читаю книги</label>
+      </li>
+      <li>
+        <input type="checkbox" name="video" id="video">
+        <label for="video">Смотрю видео</label>
+      </li>
+    </ul>
+  </fieldset>
+  <fieldset>
+    <legend>Предпочтения</legend>
+    <ul>
+      <li>
+        <input type="radio" name="preference" id="front" value="frontend" checked>
+        <label for="front">Фронтенд-разработка</label>
+      </li>
+      <li>
+        <input type="radio" name="preference" id="back" value="backend">
+        <label for="back">Бэкенд-разработка</label>
+      </li>
+    </ul>
+  </fieldset>
+  <div>
+      <p>* — Обязательные поля</p>
     <button type="submit">Отправить</button>
-  </form>
+      <button type="submit">Сброс</button>
+  </div>
+</form>
 </div>
-
-
-</div>
-
-
-
-
-
-
-
 
 
 
@@ -152,3 +186,129 @@
 
 </body>
 </html>
+
+
+
+<form action="" class="railway">
+<div class="stripes-block">
+<div class="line"></div>
+</div>
+<h3>Информация о пассажире</h3>
+<div class="form-group">
+<input type="text" id="name" required><label for="name">Имя</label>
+<input type="text" id="pass" required><label for="pass">Паспортные данные</label>
+<input type="email" id="email" required><label for="email">Email</label>
+<input type="text" id="phone" required><label for="phone">Номер телефона</label>
+</div>
+<div class="submit-block">
+<div class="submit-button">
+<i class="fa fa-train" aria-hidden="true"></i><br>
+<input type="submit" value="Отправить">
+</div>
+</div>
+</form>
+
+
+<form action="" class="postcard">
+<div class="form-row">
+<label for="name">Ваше имя</label><input type="text" id="name" required>
+</div>
+<div class="form-row">
+<label for="email">Ваш Email</label><input type="email" id="email" required>
+</div>
+<div class="form-row">
+<label for="message">Ваше сообщение</label><textarea rows="5" id="message" required></textarea>
+</div>
+<div class="form-row">
+<input type="submit" value="Отправить сообщение">
+</div>
+</form>
+
+
+<form class="decor">
+<div class="form-left-decoration"></div>
+<div class="form-right-decoration"></div>
+<div class="circle"></div>
+<div class="form-inner">
+<h3>Написать нам</h3>
+<input type="text" placeholder="Username">
+<input type="email" placeholder="Email">
+<textarea placeholder="Сообщение..." rows="3"></textarea>
+<input type="submit" value="Отправить">
+</div>
+</form>
+
+
+<form action="" class="ui-form">
+<h3>Войти на сайт</h3>
+<div class="form-row">
+<input type="text" id="email" required autocomplete="off"><label for="email">Email</label>
+</div>
+<div class="form-row">
+<input type="password" id="password" required autocomplete="off"><label for="password">Пароль</label>
+</div>
+<p><input type="submit" value="Войти"></p>
+</form>
+
+
+
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>ZIP</th>
+			<th>Birthday</th>
+			<th>Points</th>
+			<th>Average</th>
+			<th>Amount</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Gloria</td>
+			<td>Reeves</td>
+			<td>67439</td>
+			<td>10/18/1985</td>
+			<td>4</td>
+			<td>0.1</td>
+			<td>$50</td>
+		</tr>
+		<tr>
+			<td>Gloria</td>
+			<td>Reeves</td>
+			<td>67439</td>
+			<td>10/18/1985</td>
+			<td>4</td>
+			<td>0.1</td>
+			<td>$50</td>
+		</tr>
+    <tr>
+			<td>Gloria</td>
+			<td>Reeves</td>
+			<td>67439</td>
+			<td>10/18/1985</td>
+			<td>4</td>
+			<td>0.1</td>
+			<td>$50</td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+
+<iframe
+  id="inlineFrameExample"
+  title="Inline Frame Example"
+  width="300"
+  height="200"
+  src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+</iframe>
+
+<iframe
+    <img src="https://cdn.7tv.app/emote/60aeaf7b229664e866b9ecb6/4x.webp"
+         height="300px"
+         width="200px">
+</iframe>
