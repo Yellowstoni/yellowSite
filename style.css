@@ -93,8 +93,12 @@ color: rgb(240, 230, 140);
     background: #AB4A9C; /* Цвет фона */
    }
 
+label {
+font-size: 25px;
+width: 300px; /* Ширина поля */
 
-
+   }
+}
 
 button {
   padding: 30px 0;
@@ -310,5 +314,5 @@ iframe {
   padding: 25px;
   border-top: 50px;
   width: 100%;
-
+}
 
