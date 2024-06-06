@@ -6,7 +6,7 @@
     text-align: center;
     margin-top: 1em;
     padding: 1em;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 .h1 {
@@ -16,7 +16,7 @@ color: rgb(240, 230, 140);
     text-align: auto;
     margin-top: 1em;
     padding: 1em;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
 }
 .p1 {
 color: rgb(240, 230, 140);
@@ -25,7 +25,7 @@ color: rgb(240, 230, 140);
     text-align: center;
     margin-top: 1em;
     padding: 1em;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 .p2 {
@@ -35,7 +35,7 @@ color: rgb(205, 92, 92);
     text-align: center;
     margin-top: 1em;
     padding: 1em;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
  text-shadow:
   1px 1px 1px yellow,
   2px 2px 1px yellow;
@@ -48,7 +48,7 @@ color: rgb(240, 230, 140);
     text-align: center;
     margin-top: 1em;
     padding: 1em;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 .p4 {
@@ -58,7 +58,7 @@ color: rgb(240, 230, 140);
     text-align: center;
     margin-top: 1em;
     padding: 1em;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 .p5 {
@@ -67,7 +67,7 @@ color: rgb(240, 230, 140);
     text-align: center;
     margin-top: 1em;
     padding: 1em;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 .ordersKanns {
@@ -77,7 +77,7 @@ color: rgb(240, 230, 140);
     text-align: left;
     margin-top: 1em;
     padding: 1em;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 .a {
